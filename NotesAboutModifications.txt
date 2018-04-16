@@ -1,0 +1,20 @@
+CHANGES TO THE DETECTOR GEOMETRY (i.e. DetectorConstruction.cc/hh):
+
+The only things I added to the simulation geometry is NaI detector 3.
+
+This is the NaI crystal found on the table next to the mass slit box.
+
+The specifications are found here: 
+http://www.crystals.saint-gobain.com/uploadedFiles/SG-Crystals/Documents/Configurations/SGC%20Integral%20Detectors.pdf
+
+The particular type is Mod. 2M2/2
+
+Canberra Industries
+
+
+Furthermore, I actually also changed the aluminum port cover geometry. The actual geometry was missing the stainless steel neck 
+and flange. Also the measurements were way off. 
+
+I also added the two lead bricks next to the NaI detector. Their positions don't look quite right but the measurements
+are pretty close relative to the NaI pmt on the table. Just leave it, it's probably at most off by a cm or two and in this
+case it really doesn't matter since they would need to cause such sharp scattering in order to trigger in the crystal.
